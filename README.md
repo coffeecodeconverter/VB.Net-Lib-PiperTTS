@@ -69,6 +69,5 @@ The function works asynchronously, allowing you to either await its completion f
 Await Speak(userInput)
 
 
-```vb
 ' Default function with all Arguments
 Await Speak(userInput, AddressOf MyCallBackFunction, speechTempo, sentenceSilence, noiseScale, noiseW, modelONNXFilePath, modelJSONFilePath, wavFile, autoPlayWavFile, forceSpeak)
