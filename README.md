@@ -3,7 +3,7 @@ VB.Net Lib - Piper TTS (Text to Speech) Easy to Use Function for Integrating Pip
 
 
 
-# PiperTTS - Text to Speech (TTS) with Piper
+# PiperTTS - Text to Speech
 
 ## Requirements
 
