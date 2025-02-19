@@ -67,3 +67,9 @@ The function works asynchronously, allowing you to either await its completion f
 ```vb
 ' Default function: stream directly to speakers
 Await Speak(userInput)
+
+
+### Main Function with all Arguments
+```vb
+' Default function: stream directly to speakers
+Await Speak(userInput, AddressOf MyCallBackFunction, speechTempo, sentenceSilence, noiseScale, noiseW, modelONNXFilePath, modelJSONFilePath, wavFile, autoPlayWavFile, forceSpeak)
